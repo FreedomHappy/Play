@@ -1,2 +1,2 @@
 # Play
-Play with anything
+Play with anything. Just play.
