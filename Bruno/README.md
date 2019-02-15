@@ -1,10 +1,16 @@
 # Digital-Assistants
 [Help](#help)
+
 [Automaing the daily stuffs](#auto)
+
 [View the demo here](#view)
+
 [Installation](#installation)
+
 [Features present and accessing them](#features)
+
 [Note](#note)
+
 ## Help<span id="help">
   
   
