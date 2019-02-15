@@ -14,7 +14,7 @@
 ## Help<span id="help">
   
   
-## Automating the daily stuffs<span id="auto">
+## <span id="auto">Automating the daily stuffs</span>
 
 ![](BRUNO.png)
 
