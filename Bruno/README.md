@@ -1,7 +1,7 @@
 # Digital-Assistants
 [help](#help)
 
-<span id="help">## Help</span>
+## Help<span id="help"></span>
 ## Automating the daily stuffs
 
 ![](BRUNO.png)
