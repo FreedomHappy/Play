@@ -18,10 +18,10 @@
 
 ![](BRUNO.png)
 
-## View the demo here<span id="view">
+## <span id="view">View the demo here</span>
 [![BRUNO | Features](bruno_youtube.png)](https://www.youtube.com/playlist?list=PLVCy_WceGl-eIkIAIZbEGqP94UVryi86H)
 
-## Installation<span id="installation">
+## <span id="installation">Installation</span>
 
 ### daily.py
 
@@ -41,7 +41,7 @@
 7. `$ pip install -r requirements.txt`
 
 
-## Features present and accessing them:<span id="features">
+## <span id="features">Features present and accessing them:</span>
 - [x] <b>Google search</b>
    - Say anything like `search xyz`.
 - [x] <b>Play song on Youtube</b>
@@ -63,5 +63,5 @@
 - [x] <b> results from `wolfram` or `wikipedia`</b>
    - say something like `what is voldemort database` or `who is sachin tendulkar` basically start with `what is` or `who is`
  
-## Note <span id="note">
+##  <span id="note">Note</span>
    Features works on Windows n Python 3.x
