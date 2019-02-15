@@ -1,15 +1,21 @@
 # Digital-Assistants
 [Help](#help)
-
+[Automaing the daily stuffs](#auto)
+[View the demo here](#view)
+[Installation](#installation)
+[Features present and accessing them](#features)
+[Note](#note)
 ## Help<span id="help">
-## Automating the daily stuffs
+  
+  
+## Automating the daily stuffs<span id="auto">
 
 ![](BRUNO.png)
 
-## View the demo here
+## View the demo here<span id="view">
 [![BRUNO | Features](bruno_youtube.png)](https://www.youtube.com/playlist?list=PLVCy_WceGl-eIkIAIZbEGqP94UVryi86H)
 
-## Installation
+## Installation<span id="installation">
 
 ### daily.py
 
@@ -29,7 +35,7 @@
 7. `$ pip install -r requirements.txt`
 
 
-## Features present and accessing them:
+## Features present and accessing them:<span id="features">
 - [x] <b>Google search</b>
    - Say anything like `search xyz`.
 - [x] <b>Play song on Youtube</b>
@@ -51,5 +57,5 @@
 - [x] <b> results from `wolfram` or `wikipedia`</b>
    - say something like `what is voldemort database` or `who is sachin tendulkar` basically start with `what is` or `who is`
  
-## Note
+## Note <span id="note">
    Features works on Windows n Python 3.x
