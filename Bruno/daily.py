@@ -54,12 +54,12 @@ class MyFrame(wx.Frame):
                           title="BRUNO")
         panel = wx.Panel(self)
 
-        ico = wx.Icon('boy.ico', wx.BITMAP_TYPE_ICO)
+        ico = wx.Icon('D.ico', wx.BITMAP_TYPE_ICO)
         self.SetIcon(ico)
 
         my_sizer = wx.BoxSizer(wx.VERTICAL)
         lbl = wx.StaticText(panel,
-                            label="Bienvenido Sir. How can I help you?")
+                            label="My Lord. How can I help you?")
         my_sizer.Add(lbl, 0, wx.ALL, 5)
         self.txt = wx.TextCtrl(panel, style=wx.TE_PROCESS_ENTER,
                                size=(400, 30))
@@ -68,7 +68,7 @@ class MyFrame(wx.Frame):
         my_sizer.Add(self.txt, 0, wx.ALL, 5)
         panel.SetSizer(my_sizer)
         self.Show()
-        speak.Speak('''Welcome back Sir, Broono at your service.''')
+        speak.Speak('''Welcome back. My lord.''')
 
     def OnEnter(self, event):
         put = self.txt.GetValue()
@@ -137,8 +137,8 @@ class MyFrame(wx.Frame):
         elif put.startswith('science '):
             try:
                 jsonObj = urlopen(
-                    '''https://newsapi.org/v1/articles?source=new-scientist&sortBy=top&apiKey=your_API_here''')
-                data = json.load(jsonObj)
+                    '''https://newsapi.org/v1/articles?source=new-scientist&sortBy=top&apiKey=574412636f2340ddb50bf51fe85cebf2''')
+                data = json.loads(jsonObj.read().decode('utf-8'))
                 i = 1
                 speak.Speak('''Here are some top science
                              news from new scientist''')
@@ -153,8 +153,8 @@ class MyFrame(wx.Frame):
         elif put.startswith('headlines '):
             try:
                 jsonObj = urlopen(
-                    '''https://newsapi.org/v1/articles?source=the-times-of-india&sortBy=top&apiKey=your_API_here''')
-                data = json.load(jsonObj)
+                    '''https://newsapi.org/v1/articles?source=the-times-of-india&sortBy=top&apiKey=574412636f2340ddb50bf51fe85cebf2''')
+                data = json.loads(jsonObj.read().decode('utf-8'))
                 i = 1
                 speak.Speak('here are some top news from the times of india')
                 print('''             ===============TIMES OF INDIA============'''

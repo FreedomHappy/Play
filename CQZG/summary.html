@@ -1,0 +1,20 @@
+<html>
+
+<frameset cols="10%,*">
+
+   <frame noresize="noresize" src="navigation.html"> 
+   <!--假如一个框架有可见边框，用户可以拖动边框来改变它的大小。
+   为了避免这种情况发生，可以在 <frame> 标签中加入：
+      noresize="noresize" -->
+   <frame src="first.html#cqzg" name='content'>
+
+   <noframes>
+      <body>您的浏览器无法处理框架！</body>
+   </noframes>
+   <!-- 为不支持框架的浏览器添加 <noframes> 标签。 -->
+   <!-- 重要提示：不能将 <body></body> 标签与 <frameset></frameset> 标签同时使用！ -->
+   <!-- 不过，假如你添加包含一段文本的 <noframes> 标签，就必须将这段文字嵌套于 <body></body> 标签内。 -->
+   
+</frameset>
+
+</html>
